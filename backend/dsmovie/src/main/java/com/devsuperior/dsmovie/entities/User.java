@@ -33,4 +33,12 @@ public class User {
     public void setNome(String nome) {
         this.email = nome;
     }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }
